@@ -6,7 +6,7 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper2/
+baseurl: /
 
 # Website info
 title: Ghost
@@ -70,10 +70,10 @@ lsi: False
 username: jekyllt
 repo: jasper2
 branch: master
-relative_source: ../jasper2/
+relative_source: ../
 destination: ../jasper2-pages/
-production_url:  https://jekyllt.github.io/jasper2/
-source_url:  https://github.com/jekyllt/jasper2/
+production_url:  https://adventhymnals.github.io/
+source_url:  https://github.com/adventHymnals/adventhymnals.github.io/
 
 exclude:
   - assets/css
