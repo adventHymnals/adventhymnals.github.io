@@ -3,8 +3,8 @@ layout: post
 current: post
 cover:  assets/images/advanced.jpg
 navigation: True
-title: Seventh-Day Adventist Hymnal
-date: 2017-07-27 05:00:00
+title: Seventh-day Adventist Hymnal (1985)
+date: 1985-07-27 05:00:00
 tags: [Hymnals]
 class: post-template
 subclass: 'post'

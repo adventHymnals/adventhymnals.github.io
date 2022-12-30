@@ -3,12 +3,12 @@ layout: post
 current: post
 cover:  assets/images/writing.jpg
 navigation: True
-title: Christ in Song
-date: 2017-07-27 09:00:00
+title: Christ in SongSS
+date: 1908-01-01 09:00:00
 tags: [Hymnals]
 class: post-template
 subclass: 'post'
-author: ghost
+author: belden
 ---
 
 Song is the first-born of Love and Joy. The Christian has more love and joy than the sinner, and hence has more need of song than any other class of human beings.

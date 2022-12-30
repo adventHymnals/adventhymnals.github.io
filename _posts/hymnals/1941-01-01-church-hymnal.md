@@ -4,7 +4,7 @@ current: post
 cover:  assets/images/team.jpg
 navigation: True
 title: Church Hymnal (1941)
-date: 2017-07-27 07:00:00
+date: 1941-01-01 07:00:00
 tags: [Hymnals]
 class: post-template
 subclass: 'post'

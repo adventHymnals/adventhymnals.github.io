@@ -1,15 +1,17 @@
 ---
-layout: post
+layout: page
 current: post
-cover:  assets/images/tags.jpg
+cover:  assets/images/writing.jpg
 navigation: True
-title: Hymns for the Poor of the Flock
-date: 2022-11-11 08:00:00
+title: Hymns for the Poor of the Flock (1838)
+date: 1838-01-01 09:00:00
 tags: [Hymnals]
 class: post-template
 subclass: 'post'
-author: "Brian Onang'o"
+author: anon
 ---
+
+From the Hymn's Preface comes the following:
 
 A good selection of Hymns is still much wanted.
 
