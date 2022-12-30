@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>All Adventist Hymnals Since 1843</description>
+    <link>
+    </link>
+    
+      
+      <item>
+        <title>Welcome to Advent Hymnals</title>
+        
+          <description>&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 10:00:00 +0000</pubDate>
+        <link>
+        /welcome</link>
+        <guid isPermaLink="true">/welcome</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Seventh-day Adventist Hymnal (1985)</title>
+        
+          <description>&lt;p&gt;There are lots of powerful things you can do with the Ghost editor&lt;/p&gt;
+&lt;p&gt;If you've gotten pretty comfortable with &lt;a href=&quot;/the-editor/&quot;&gt;all the basics&lt;/a&gt; of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
+&lt;p&gt;As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.&lt;/p&gt;
+&lt;h2 id=&quot;specialformatting&quot;&gt;Special formatting&lt;/h2&gt;
+&lt;p&gt;As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;s&gt;strike through&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;mark&gt;highlight&lt;/mark&gt;&lt;/li&gt;
+&lt;li&gt;*escaped characters*&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;writingcodeblocks&quot;&gt;Writing code blocks&lt;/h2&gt;
+&lt;p&gt;There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, &lt;code&gt;like this&lt;/code&gt;. Larger snippets of code can be displayed across multiple lines using triple back ticks:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.my-link {
+    text-decoration: underline;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you want to get really fancy, you can even add syntax highlighting using &lt;a href=&quot;http://prismjs.com/&quot;&gt;Prism.js&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;fullbleedimages&quot;&gt;Full bleed images&lt;/h2&gt;
+&lt;p&gt;One neat trick which you can use in Markdown to distinguish between different types of images is to add a &lt;code&gt;#hash&lt;/code&gt; value to the end of the source URL, and then target images containing the hash with special styling. For example:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://casper.ghost.org/v1.0.0/images/walking.jpg#full&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;which is styled with...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;img[src$=&amp;quot;#full&amp;quot;] {
+    max-width: 100vw;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This creates full-bleed images in the Casper theme, which stretch beyond their usual boundaries right up to the edge of the window. Every theme handles these types of things slightly differently, but it's a great trick to play with if you want to have a variety of image sizes and styles.&lt;/p&gt;
+&lt;h2 id=&quot;referencelists&quot;&gt;Reference lists&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The quick brown &lt;a href=&quot;https://en.wikipedia.org/wiki/Fox&quot; title=&quot;Wikipedia: Fox&quot;&gt;fox&lt;/a&gt;, jumped over the lazy &lt;a href=&quot;https://en.wikipedia.org/wiki/Dog&quot; title=&quot;Wikipedia: Dog&quot;&gt;dog&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.&lt;/p&gt;
+&lt;h2 id=&quot;creatingfootnotes&quot;&gt;Creating footnotes&lt;/h2&gt;
+&lt;p&gt;The quick brown fox&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; jumped over the lazy dog&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Footnotes are a great way to add additional contextual details when appropriate. Ghost will automatically add footnote content to the very end of your post.&lt;/p&gt;
+&lt;h2 id=&quot;fullhtml&quot;&gt;Full HTML&lt;/h2&gt;
+&lt;p&gt;Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Ghost editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example:&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Foxes are red &lt;a href=&quot;#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Dogs are usually not red &lt;a href=&quot;#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+        
+        <pubDate>Sat, 27 Jul 1985 05:00:00 +0000</pubDate>
+        <link>
+        /advanced-markdown</link>
+        <guid isPermaLink="true">/advanced-markdown</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Church Hymnal (1941)</title>
+        
+          <description>&lt;p&gt;Ghost has a number of different user roles for your team&lt;/p&gt;
+&lt;h3 id=&quot;authors&quot;&gt;Authors&lt;/h3&gt;
+&lt;p&gt;The base user level in Ghost is an author. Authors can write posts, edit their own posts, and publish their own posts. Authors are &lt;strong&gt;trusted&lt;/strong&gt; users. If you don't trust users to be allowed to publish their own posts, you shouldn't invite them to Ghost admin.&lt;/p&gt;
+&lt;h3 id=&quot;editors&quot;&gt;Editors&lt;/h3&gt;
+&lt;p&gt;Editors are the 2nd user level in Ghost. Editors can do everything that an Author can do, but they can also edit and publish the posts of others - as well as their own. Editors can also invite new authors to the site.&lt;/p&gt;
+&lt;h3 id=&quot;administrators&quot;&gt;Administrators&lt;/h3&gt;
+&lt;p&gt;The top user level in Ghost is Administrator. Again, administrators can do everything that Authors and Editors can do, but they can also edit all site settings and data, not just content. Additionally, administrators have full access to invite, manage or remove any other user of the site.&lt;/p&gt;
+&lt;h3 id=&quot;theowner&quot;&gt;The Owner&lt;/h3&gt;
+&lt;p&gt;There is only ever one owner of a Ghost site. The owner is a special user which has all the same permissions as an Administrator, but with two exceptions: The Owner can never be deleted. And in some circumstances the owner will have access to additional special settings if applicable — for example, billing details, if using Ghost(Pro).&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;It's a good idea to ask all of your users to fill out their user profiles, including bio and social links. These will populate rich structured data for posts and generally create more opportunities for themes to fully populate their design.&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 01 Jan 1941 07:00:00 +0000</pubDate>
+        <link>
+        /church-hymnal</link>
+        <guid isPermaLink="true">/church-hymnal</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Christ in SongSS</title>
+        
+          <description>&lt;p&gt;Song is the first-born of Love and Joy. The Christian has more love and joy than the sinner, and hence has more need of song than any other class of human beings.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 01 Jan 1908 09:00:00 +0000</pubDate>
+        <link>
+        /christ-in-song</link>
+        <guid isPermaLink="true">/christ-in-song</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>The Seventh-day Adventist Hymn and Tune Book (Hymns and Tunes) (1886)</title>
+        
+          <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ACBC&lt;/th&gt;
+      &lt;th&gt;adhsakjd&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;asdsd&lt;/td&gt;
+      &lt;td&gt;asdhdkasd&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</description>
+        
+        <pubDate>Fri, 01 Jan 1886 09:00:00 +0000</pubDate>
+        <link>
+        /hymns-and-tunes-1886</link>
+        <guid isPermaLink="true">/hymns-and-tunes-1886</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Hymns and Tunes for Those who Keep the Commandments of God and the Faith of Jesus (1876)</title>
+        
+          <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ACBC&lt;/th&gt;
+      &lt;th&gt;adhsakjd&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;asdsd&lt;/td&gt;
+      &lt;td&gt;asdhdkasd&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</description>
+        
+        <pubDate>Sat, 01 Jan 1876 09:00:00 +0000</pubDate>
+        <link>
+        /hymns-and-tunes-1876</link>
+        <guid isPermaLink="true">/hymns-and-tunes-1876</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Hymns and Tunes for Those who Keep the Commandments of God and the Faith of Jesus (1869)</title>
+        
+          <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ACBC&lt;/th&gt;
+      &lt;th&gt;adhsakjd&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;asdsd&lt;/td&gt;
+      &lt;td&gt;asdhdkasd&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</description>
+        
+        <pubDate>Fri, 01 Jan 1869 09:00:00 +0000</pubDate>
+        <link>
+        /hymns-and-tunes-1869</link>
+        <guid isPermaLink="true">/hymns-and-tunes-1869</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Hymns for Second Advent Believers who Observe the Sabbath of the Lord (1852)</title>
+        
+          <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ACBC&lt;/th&gt;
+      &lt;th&gt;adhsakjd&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;asdsd&lt;/td&gt;
+      &lt;td&gt;asdhdkasd&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</description>
+        
+        <pubDate>Thu, 01 Jan 1852 09:00:00 +0000</pubDate>
+        <link>
+        /Hymns-for-Second-Advent-Believers</link>
+        <guid isPermaLink="true">/Hymns-for-Second-Advent-Believers</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Hymns for God’s Peculiar People, That Keep the Commandments of God, and the faith of Jesus (1849)</title>
+        
+          <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ACBC&lt;/th&gt;
+      &lt;th&gt;adhsakjd&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;asdsd&lt;/td&gt;
+      &lt;td&gt;asdhdkasd&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</description>
+        
+        <pubDate>Mon, 01 Jan 1849 09:00:00 +0000</pubDate>
+        <link>
+        /Hymns-for-God's-Peculiar-People</link>
+        <guid isPermaLink="true">/Hymns-for-God's-Peculiar-People</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Millenial Harp. Designed for Meetings on the Second Coming of Christ</title>
+        
+          <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ACBC&lt;/th&gt;
+      &lt;th&gt;adhsakjd&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;asdsd&lt;/td&gt;
+      &lt;td&gt;asdhdkasd&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</description>
+        
+        <pubDate>Sun, 01 Jan 1843 09:00:00 +0000</pubDate>
+        <link>
+        /millenial-harp</link>
+        <guid isPermaLink="true">/millenial-harp</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Hymns for the Poor of the Flock (1838)</title>
+        
+          <description>&lt;p&gt;From the Hymn’s Preface comes the following:&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 01 Jan 1838 09:00:00 +0000</pubDate>
+        <link>
+        /hymns-for-the-poor-of-the-flock</link>
+        <guid isPermaLink="true">/hymns-for-the-poor-of-the-flock</guid>
+      </item>
+      
+    
+  </channel>
+</rss>
