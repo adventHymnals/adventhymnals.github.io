@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F[hymnal]","\u002F[hymnal]\u002F[slug]","\u002F[hymnal]\u002F[slug]\u002Fedit","\u002F[hymnal]\u002Fsearch","\u002Fauthors\u002F[author]","\u002Fcomposers\u002F[composer]","\u002Fmeters\u002F[meter]","\u002Fprojection\u002F[hymnId]","\u002Fthemes\u002F[theme]","\u002Ftunes\u002F[tune]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
