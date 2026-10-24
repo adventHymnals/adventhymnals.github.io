@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://adventhymnals.github.io/sitemap.xml
+Sitemap: https://adventhymnals.org/sitemap.xml
